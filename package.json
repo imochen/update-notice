@@ -1,6 +1,6 @@
 {
   "name": "update-notice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Update notifications for CLI.",
   "main": "index.js",
   "repository": {

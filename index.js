@@ -64,5 +64,5 @@ class UpdateNotice {
 }
 
 module.exports = ({ pkg, options }) => {
-  return new UpdateNotice(pkg, options);
+  return new UpdateNotice({ pkg, options });
 }
