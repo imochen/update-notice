@@ -1,0 +1,244 @@
+{
+  "name": "update-notice",
+  "version": "0.1.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "ansi-align": {
+      "version": "2.0.0",
+      "resolved": "http://npm.pandatv.com/ansi-align/-/ansi-align-2.0.0.tgz",
+      "integrity": "sha1-w2rsy6VjuJzrVW82kPCx2eNUf38=",
+      "requires": {
+        "string-width": "^2.0.0"
+      }
+    },
+    "ansi-regex": {
+      "version": "3.0.0",
+      "resolved": "http://npm.pandatv.com/ansi-regex/-/ansi-regex-3.0.0.tgz",
+      "integrity": "sha1-7QMXwyIGT3lGbAKWa922Bas32Zg="
+    },
+    "ansi-styles": {
+      "version": "3.2.1",
+      "resolved": "http://npm.pandatv.com/ansi-styles/-/ansi-styles-3.2.1.tgz",
+      "integrity": "sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=",
+      "requires": {
+        "color-convert": "^1.9.0"
+      }
+    },
+    "boxen": {
+      "version": "1.3.0",
+      "resolved": "http://npm.pandatv.com/boxen/-/boxen-1.3.0.tgz",
+      "integrity": "sha1-VcbDmouljZxhrSLNh3Uy3rZlogs=",
+      "requires": {
+        "ansi-align": "^2.0.0",
+        "camelcase": "^4.0.0",
+        "chalk": "^2.0.1",
+        "cli-boxes": "^1.0.0",
+        "string-width": "^2.0.0",
+        "term-size": "^1.2.0",
+        "widest-line": "^2.0.0"
+      }
+    },
+    "camelcase": {
+      "version": "4.1.0",
+      "resolved": "http://npm.pandatv.com/camelcase/-/camelcase-4.1.0.tgz",
+      "integrity": "sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0="
+    },
+    "chalk": {
+      "version": "2.4.1",
+      "resolved": "http://npm.pandatv.com/chalk/-/chalk-2.4.1.tgz",
+      "integrity": "sha1-GMSasWoDe26wFSzIPjRxM4IVtm4=",
+      "requires": {
+        "ansi-styles": "^3.2.1",
+        "escape-string-regexp": "^1.0.5",
+        "supports-color": "^5.3.0"
+      }
+    },
+    "cli-boxes": {
+      "version": "1.0.0",
+      "resolved": "http://npm.pandatv.com/cli-boxes/-/cli-boxes-1.0.0.tgz",
+      "integrity": "sha1-T6kXw+WclKAEzWH47lCdplFocUM="
+    },
+    "color-convert": {
+      "version": "1.9.2",
+      "resolved": "http://npm.pandatv.com/color-convert/-/color-convert-1.9.2.tgz",
+      "integrity": "sha1-SYgbj7pn3xKpa98/VsCqueeRMUc=",
+      "requires": {
+        "color-name": "1.1.1"
+      }
+    },
+    "color-name": {
+      "version": "1.1.1",
+      "resolved": "http://npm.pandatv.com/color-name/-/color-name-1.1.1.tgz",
+      "integrity": "sha1-SxQVMEz1ACjqgWQ2Q72C6gWANok="
+    },
+    "cross-spawn": {
+      "version": "5.1.0",
+      "resolved": "http://npm.pandatv.com/cross-spawn/-/cross-spawn-5.1.0.tgz",
+      "integrity": "sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=",
+      "requires": {
+        "lru-cache": "^4.0.1",
+        "shebang-command": "^1.2.0",
+        "which": "^1.2.9"
+      }
+    },
+    "escape-string-regexp": {
+      "version": "1.0.5",
+      "resolved": "http://npm.pandatv.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz",
+      "integrity": "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
+    },
+    "execa": {
+      "version": "0.7.0",
+      "resolved": "http://npm.pandatv.com/execa/-/execa-0.7.0.tgz",
+      "integrity": "sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=",
+      "requires": {
+        "cross-spawn": "^5.0.1",
+        "get-stream": "^3.0.0",
+        "is-stream": "^1.1.0",
+        "npm-run-path": "^2.0.0",
+        "p-finally": "^1.0.0",
+        "signal-exit": "^3.0.0",
+        "strip-eof": "^1.0.0"
+      }
+    },
+    "get-stream": {
+      "version": "3.0.0",
+      "resolved": "http://npm.pandatv.com/get-stream/-/get-stream-3.0.0.tgz",
+      "integrity": "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
+    },
+    "has-flag": {
+      "version": "3.0.0",
+      "resolved": "http://npm.pandatv.com/has-flag/-/has-flag-3.0.0.tgz",
+      "integrity": "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
+    },
+    "is-fullwidth-code-point": {
+      "version": "2.0.0",
+      "resolved": "http://npm.pandatv.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz",
+      "integrity": "sha1-o7MKXE8ZkYMWeqq5O+764937ZU8="
+    },
+    "is-stream": {
+      "version": "1.1.0",
+      "resolved": "http://npm.pandatv.com/is-stream/-/is-stream-1.1.0.tgz",
+      "integrity": "sha1-EtSj3U5o4Lec6428hBc66A2RykQ="
+    },
+    "isexe": {
+      "version": "2.0.0",
+      "resolved": "http://npm.pandatv.com/isexe/-/isexe-2.0.0.tgz",
+      "integrity": "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
+    },
+    "lru-cache": {
+      "version": "4.1.3",
+      "resolved": "http://npm.pandatv.com/lru-cache/-/lru-cache-4.1.3.tgz",
+      "integrity": "sha1-oRdc80lt/IQ2wVbDNLSVWZK85pw=",
+      "requires": {
+        "pseudomap": "^1.0.2",
+        "yallist": "^2.1.2"
+      }
+    },
+    "npm-run-path": {
+      "version": "2.0.2",
+      "resolved": "http://npm.pandatv.com/npm-run-path/-/npm-run-path-2.0.2.tgz",
+      "integrity": "sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=",
+      "requires": {
+        "path-key": "^2.0.0"
+      }
+    },
+    "p-finally": {
+      "version": "1.0.0",
+      "resolved": "http://npm.pandatv.com/p-finally/-/p-finally-1.0.0.tgz",
+      "integrity": "sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4="
+    },
+    "path-key": {
+      "version": "2.0.1",
+      "resolved": "http://npm.pandatv.com/path-key/-/path-key-2.0.1.tgz",
+      "integrity": "sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A="
+    },
+    "pseudomap": {
+      "version": "1.0.2",
+      "resolved": "http://npm.pandatv.com/pseudomap/-/pseudomap-1.0.2.tgz",
+      "integrity": "sha1-8FKijacOYYkX7wqKw0wa5aaChrM="
+    },
+    "semver": {
+      "version": "5.5.1",
+      "resolved": "http://npm.pandatv.com/semver/-/semver-5.5.1.tgz",
+      "integrity": "sha1-ff3YgUvbfKvHvg+x1zTPtmyUBHc="
+    },
+    "shebang-command": {
+      "version": "1.2.0",
+      "resolved": "http://npm.pandatv.com/shebang-command/-/shebang-command-1.2.0.tgz",
+      "integrity": "sha1-RKrGW2lbAzmJaMOfNj/uXer98eo=",
+      "requires": {
+        "shebang-regex": "^1.0.0"
+      }
+    },
+    "shebang-regex": {
+      "version": "1.0.0",
+      "resolved": "http://npm.pandatv.com/shebang-regex/-/shebang-regex-1.0.0.tgz",
+      "integrity": "sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM="
+    },
+    "signal-exit": {
+      "version": "3.0.2",
+      "resolved": "http://npm.pandatv.com/signal-exit/-/signal-exit-3.0.2.tgz",
+      "integrity": "sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0="
+    },
+    "string-width": {
+      "version": "2.1.1",
+      "resolved": "http://npm.pandatv.com/string-width/-/string-width-2.1.1.tgz",
+      "integrity": "sha1-q5Pyeo3BPSjKyBXEYhQ6bZASrp4=",
+      "requires": {
+        "is-fullwidth-code-point": "^2.0.0",
+        "strip-ansi": "^4.0.0"
+      }
+    },
+    "strip-ansi": {
+      "version": "4.0.0",
+      "resolved": "http://npm.pandatv.com/strip-ansi/-/strip-ansi-4.0.0.tgz",
+      "integrity": "sha1-qEeQIusaw2iocTibY1JixQXuNo8=",
+      "requires": {
+        "ansi-regex": "^3.0.0"
+      }
+    },
+    "strip-eof": {
+      "version": "1.0.0",
+      "resolved": "http://npm.pandatv.com/strip-eof/-/strip-eof-1.0.0.tgz",
+      "integrity": "sha1-u0P/VZim6wXYm1n80SnJgzE2Br8="
+    },
+    "supports-color": {
+      "version": "5.5.0",
+      "resolved": "http://npm.pandatv.com/supports-color/-/supports-color-5.5.0.tgz",
+      "integrity": "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=",
+      "requires": {
+        "has-flag": "^3.0.0"
+      }
+    },
+    "term-size": {
+      "version": "1.2.0",
+      "resolved": "http://npm.pandatv.com/term-size/-/term-size-1.2.0.tgz",
+      "integrity": "sha1-RYuDiH8oj8Vtb/+/rSYuJmOO+mk=",
+      "requires": {
+        "execa": "^0.7.0"
+      }
+    },
+    "which": {
+      "version": "1.3.1",
+      "resolved": "http://npm.pandatv.com/which/-/which-1.3.1.tgz",
+      "integrity": "sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo=",
+      "requires": {
+        "isexe": "^2.0.0"
+      }
+    },
+    "widest-line": {
+      "version": "2.0.0",
+      "resolved": "http://npm.pandatv.com/widest-line/-/widest-line-2.0.0.tgz",
+      "integrity": "sha1-AUKk6KJD+IgsAjOqDgKBqnYVInM=",
+      "requires": {
+        "string-width": "^2.1.1"
+      }
+    },
+    "yallist": {
+      "version": "2.1.2",
+      "resolved": "http://npm.pandatv.com/yallist/-/yallist-2.1.2.tgz",
+      "integrity": "sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI="
+    }
+  }
+}
